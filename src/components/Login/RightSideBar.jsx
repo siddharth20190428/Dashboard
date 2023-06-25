@@ -42,7 +42,7 @@ export default function SideBar() {
     };
     return (
         <>
-            <div className="mx-auto p-10 lg:col-start-5 lg:col-span-3 flex flex-col justify-center text-sm md:text-base">
+            <div className="mx-auto p-6 lg:col-start-5 lg:col-span-3 flex flex-col justify-center text-sm md:text-base">
                 <div className="my-2">
                     <h1 className="text-2xl md:text-4xl font-black text-gray-900">
                         Sign In
@@ -151,10 +151,10 @@ export default function SideBar() {
                         Register here
                     </a>
                 </p>
-                <p className="py-2 text-center text-xs md:text-base text-red-600 flex">
-                    <span>Note:</span> To access the dashboard page. Either
-                    login with google or enter any email and password (atleast 8
-                    characters)
+                <p className="py-2 self-center text-xs md:text-sm text-red-600 flex">
+                    <span className="mr-2">Note:</span> To access the dashboard
+                    page. Either login with google or enter any email and
+                    password (atleast 8 characters)
                 </p>
             </div>
         </>
