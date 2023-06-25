@@ -151,6 +151,11 @@ export default function SideBar() {
                         Register here
                     </a>
                 </p>
+                <p className="py-2 text-center text-xs md:text-base text-red-600 flex">
+                    <span>Note:</span> To access the dashboard page. Either
+                    login with google or enter any email and password (atleast 8
+                    characters)
+                </p>
             </div>
         </>
     );
